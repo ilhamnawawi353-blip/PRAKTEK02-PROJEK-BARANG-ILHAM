@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Barang barang1 = new Barang(
                 "BRG-001",
-                "Keyboard",
+                "Keyboard ARGB", 
                 10,
                 "Laboratorium Komputer");
 
@@ -14,6 +14,8 @@ public class Main {
                 "Keyboard",
                 5,
                 "Laboratorium Komputer");
+        
+        
 
         System.out.println("=== DAFTAR BARANG ===");
         System.out.println(barang1.tampilkanInfo());
@@ -33,5 +35,14 @@ public class Main {
 
         System.out.println(
                 "Stok Keyboard tetap: " + barang2.getStok());
+        
+        Barang barang3 = new Barang(
+        "BRG-003",
+        "Monitor",
+        4,
+        "Laboratorium Komputer");
+
+    System.out.println("=== BARANG TAMBAHAN ===");
+    System.out.println(barang3.tampilkanInfo());
     }
 }
