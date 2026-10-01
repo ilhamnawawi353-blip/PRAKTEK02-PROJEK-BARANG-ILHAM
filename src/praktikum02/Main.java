@@ -41,8 +41,15 @@ public class Main {
         "SSD",
         4,
         "Laboratorium Komputer");
+        
+        Barang barang4 = new Barang(
+        "BRG-004",
+        "CPU",
+        4,
+        "Laboratorium Komputer");
 
     System.out.println("=== BARANG TAMBAHAN ===");
     System.out.println(barang3.tampilkanInfo());
+        System.out.print(barang4.tampilkanInfo());
     }
 }
