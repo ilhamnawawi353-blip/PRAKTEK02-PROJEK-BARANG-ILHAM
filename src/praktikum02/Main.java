@@ -38,7 +38,7 @@ public class Main {
         
         Barang barang3 = new Barang(
         "BRG-003",
-        "Monitor",
+        "SSD",
         4,
         "Laboratorium Komputer");
 
